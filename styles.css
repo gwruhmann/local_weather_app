@@ -1,0 +1,63 @@
+body {
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+@media only screen and (max-device-width : 1024px) {
+  body {
+    padding-bottom: 46.128%;
+    overflow-y: hidden;
+  }
+}
+
+
+#tempF, #tempC {
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.col-md-12 {
+  display: inline-block;
+  text-align: center;
+  margin: 2em auto;
+}
+
+.jumbotron {
+  font-family: 'Oswald', sans-serif;
+  background: rgb(238, 238, 238); /* This is for ie8 and below */
+  background: rgba(238, 238, 238, 0.3); 
+}
+
+.weatherInDegrees {
+  color: white;
+  text-shadow: 2px 1.5px black;
+}
+
+#tempF {
+  color: white;
+}
+
+#tempC {
+  color: white;
+}
+
+#description {
+  text-transform: capitalize;
+}
+
+footer {
+  color: white;
+  text-shadow: 1px 1px black;
+  margin: 0 auto;
+  background: rgb(238, 238, 238); /* This is for ie8 and below */
+  background: rgba(238, 238, 238, 0.3); 
+  display: inline-block;
+  padding: 0 0.3em 0 0.3em;
+  border-radius: 0 0 4px 4px;
+}
